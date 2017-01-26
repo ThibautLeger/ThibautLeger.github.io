@@ -1,0 +1,94 @@
+.home, .project, .view-more {
+	.project {
+		position: relative;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 0;
+		margin: 15px 0;
+		@media (max-width: 767px) {
+			margin: 7.5px 0;
+		}
+        &.sportsaid {
+			background-image: url(../images/home/sportsaid.jpg);
+			padding-top: 65%; /* (img-height / img-width * width) */
+							/* (439 / 780 * 100) */
+		}
+		&.tkmaxx {
+			background-image: url(../images/home/tkmaxx.jpg);
+			padding-top: 65%; /* (img-height / img-width * width) */
+							/* (825 / 1920 * 100) */
+		}
+		&.hbo {
+			background-image: url(../images/home/hbo-xl.jpg);
+			padding-top: 136.37%; /* (img-height / img-width * width) */
+							/* (439 / 780 * 100) */
+		}
+		&.wallpaper {
+			background-image: url(../images/home/wallpaper.jpg);
+			padding-top: 65.27%; /* (img-height / img-width * width) */
+							/* (774 / 576 * 100) */
+		}
+		&.pap {
+			background-image: url(../images/home/pap.jpg);
+			padding-top: 64%; /* (img-height / img-width * width) */
+							/* (439 / 780 * 100) */
+		}
+		&.or-nothing {
+			background-image: url(../images/home/or-nothing.jpg);
+			padding-top: 64%; /* (img-height / img-width * width) */
+							/* (774 / 576 * 100) */
+		}
+		&.arg {
+			background-image: url(../images/home/magritte.jpg);
+			padding-top: 40.97%; /* (img-height / img-width * width) */
+							/* (500 / 1176 * 100) */
+		}
+		&.arg1 {
+			background-image: url(../projects/arg/images/magritte_et_la_lumiere1.jpg);
+			padding-top: 137%;
+		}
+		&.arg2 {
+			background-image: url(../projects/arg/images/magritte_et_la_lumiere3.jpg);
+			padding-top: 65.3%;
+		}
+		&.arg3 {
+			background-image: url(../projects/arg/images/magritte_et_la_lumiere4.jpg);
+			padding-top: 65.3%;
+		}
+		&.arg4 {
+			background-image: url(../projects/arg/images/magritte_et_la_lumiere5.jpg);
+			padding-top: 59%;
+		}
+		a {
+			color: white;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background: rgba(0, 0, 0, 0.8);
+			opacity: 0.0;
+			-webkit-transition: opacity 0.25s; /* Safari */
+    		transition: opacity 0.25s;
+			span {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 100%;
+				text-align: center;
+			}
+        }
+        &:hover {
+			a {
+				opacity: 1.0;
+			}
+        }
+	}
+}
+.view-more {
+	.project {
+		padding-top: 65% !important;
+	}
+}
