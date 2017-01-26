@@ -25,6 +25,40 @@
 			padding-top: 136.37%; /* (img-height / img-width * width) */
 							/* (439 / 780 * 100) */
 		}
+		&.hbo1 {
+			background-image: url(../projects/hbo/images/iphone.png);
+			padding-top: 781px;
+			background-size: 400px 780.5px;
+			position: relative;
+
+			@media (max-width: 767px) {
+				padding-top: 527px;
+				background-size: 270px 526.83px;
+			}
+			iframe {
+				width: 320px;
+				height: 480px;
+				position: absolute;
+				top: calc(50% - 250px);
+				left: calc(50% - 165px);
+				@media (max-width: 767px) {
+					-ms-transform: scale(0.7);
+					-moz-transform: scale(0.7);
+					-o-transform: scale(0.7);
+					-webkit-transform: scale(0.7);
+					transform: scale(0.7);
+
+					-ms-transform-origin: 0 0;
+					-moz-transform-origin: 0 0;
+					-o-transform-origin: 0 0;
+					-webkit-transform-origin: 0 0;
+					transform-origin: 0 0;
+
+					top: calc(50% - 173px);
+					left: calc(50% - 115px);
+				}
+			}
+		}
 		&.wallpaper {
 			background-image: url(../images/home/wallpaper.jpg);
 			padding-top: 65.27%; /* (img-height / img-width * width) */
