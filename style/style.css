@@ -51,10 +51,6 @@ footer {
       color: #333;
       text-decoration: none; }
 
-@media (max-width: 767px) {
-  .mobile-plus {
-    margin: 7.5px 0; } }
-
 .navbar-default {
   background-color: white;
   padding: 15px 0;
@@ -146,6 +142,18 @@ footer {
     padding-top: 64%;
     /* (img-height / img-width * width) */
     /* (439 / 780 * 100) */ }
+  .home .project.pap1, .project .project.pap1, .view-more .project.pap1 {
+    background-image: url(../projects/pap/images/pap1.jpg);
+    padding-top: 155%; }
+  .home .project.pap2, .project .project.pap2, .view-more .project.pap2 {
+    background-image: url(../projects/pap/images/pap2.jpg);
+    padding-top: 74.5%; }
+  .home .project.pap3, .project .project.pap3, .view-more .project.pap3 {
+    background-image: url(../projects/pap/images/pap3.jpg);
+    padding-top: 74.5%; }
+  .home .project.pap4, .project .project.pap4, .view-more .project.pap4 {
+    background-image: url(../projects/pap/images/pap4.jpg);
+    padding-top: 59%; }
   .home .project.or-nothing, .project .project.or-nothing, .view-more .project.or-nothing {
     background-image: url(../images/home/or-nothing.jpg);
     padding-top: 64%;
@@ -186,6 +194,9 @@ footer {
       transform: translateY(-50%);
       width: 100%;
       text-align: center; }
+      @media (max-width: 767px) {
+        .home .project a span, .project .project a span, .view-more .project a span {
+          font-size: 14px; } }
   .home .project:hover a, .project .project:hover a, .view-more .project:hover a {
     opacity: 1.0; }
 @media (max-width: 767px) {
@@ -215,6 +226,18 @@ footer {
     @media (min-width: 1080px) {
       .featured-img.arg {
         padding-top: 30%; } }
+  .featured-img.pap {
+    background-image: url(../projects/pap/images/featured-pap.jpg);
+    padding-top: 50%; }
+    @media (min-width: 1080px) {
+      .featured-img.pap {
+        padding-top: 30%; } }
+  .featured-img.about {
+    background-image: url(../images/about/featured-about.jpg);
+    padding-top: 50%; }
+    @media (min-width: 1080px) {
+      .featured-img.about {
+        padding-top: 30%; } }
   .featured-img.sportsaid {
     background-image: url(../projects/sportsaid/images/featured-sportsaid.jpg);
     padding-top: 50%; }
@@ -243,6 +266,16 @@ footer {
       .featured-img.or-nothing {
         background-size: 70%;
         padding-top: 60%; } }
+  .featured-img.wallpaper {
+    background-image: url(../projects/wallpaper/images/featured-wallpaper.jpg);
+    background-color: #cccccc;
+    background-size: 40%;
+    background-position: center bottom;
+    padding-top: 35%; }
+    @media (max-width: 768px) {
+      .featured-img.wallpaper {
+        background-size: 70%;
+        padding-top: 60%; } }
 
 .intro {
   background: #1e1e1e;
@@ -257,6 +290,9 @@ footer {
     font-size: 13px;
     letter-spacing: 1.2px;
     color: #777777; }
+    @media (max-width: 767px) {
+      .intro h1 {
+        font-size: 12px; } }
   .intro h2 {
     color: #cccccc;
     margin-bottom: 20px;
@@ -267,6 +303,9 @@ footer {
   .intro p {
     color: #777777;
     font-size: 16px; }
+    @media (max-width: 767px) {
+      .intro p {
+        font-size: 14px; } }
   .intro hr {
     border-color: #333333; }
   .intro a {
@@ -275,6 +314,9 @@ footer {
     .intro a:hover, .intro a:focus {
       color: white;
       text-decoration: none; }
+    @media (max-width: 767px) {
+      .intro a {
+        font-size: 14px; } }
 
 @media (max-width: 767px) {
   .content img {

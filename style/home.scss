@@ -69,6 +69,22 @@
 			padding-top: 64%; /* (img-height / img-width * width) */
 							/* (439 / 780 * 100) */
 		}
+		&.pap1 {
+			background-image: url(../projects/pap/images/pap1.jpg);
+			padding-top: 155%;
+		}
+		&.pap2 {
+			background-image: url(../projects/pap/images/pap2.jpg);
+			padding-top: 74.5%;
+		}
+		&.pap3 {
+			background-image: url(../projects/pap/images/pap3.jpg);
+			padding-top: 74.5%;
+		}
+		&.pap4 {
+			background-image: url(../projects/pap/images/pap4.jpg);
+			padding-top: 59%;
+		}
 		&.or-nothing {
 			background-image: url(../images/home/or-nothing.jpg);
 			padding-top: 64%; /* (img-height / img-width * width) */
@@ -112,6 +128,9 @@
 				transform: translateY(-50%);
 				width: 100%;
 				text-align: center;
+				@media (max-width: 767px) {
+					font-size: 14px;
+				}
 			}
         }
         &:hover {

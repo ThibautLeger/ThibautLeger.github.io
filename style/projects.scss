@@ -16,6 +16,20 @@
 			padding-top: 30%;
 		}
 	}
+	&.pap {
+		background-image: url(../projects/pap/images/featured-pap.jpg);
+		padding-top: 50%; 
+		@media (min-width: 1080px) {
+			padding-top: 30%;
+		}
+	}
+	&.about {
+		background-image: url(../images/about/featured-about.jpg);
+		padding-top: 50%; 
+		@media (min-width: 1080px) {
+			padding-top: 30%;
+		}
+	}
 	&.sportsaid {
 		background-image: url(../projects/sportsaid/images/featured-sportsaid.jpg);
 		padding-top: 50%; 
@@ -48,6 +62,17 @@
 			padding-top: 60%; 
 		}
 	}
+	&.wallpaper {
+		background-image: url(../projects/wallpaper/images/featured-wallpaper.jpg);
+		background-color: $featured-bg;
+		background-size: 40%;
+		background-position: center bottom;
+		padding-top: 35%; 
+		@media (max-width: 768px) {
+			background-size: 70%;
+			padding-top: 60%; 
+		}
+	}
 }
 .intro {
 	background: $intro-bg;
@@ -62,6 +87,9 @@
 		font-size: 13px;
 		letter-spacing: 1.2px;
 		color: $intro-dark;
+		@media (max-width: 767px) {
+			font-size: 12px;
+		}
 	}
 	h2 {
 		color: $intro-light;
@@ -74,6 +102,9 @@
 	p {
 		color: $intro-dark;
 		font-size: 16px;
+		@media (max-width: 767px) {
+			font-size: 14px;
+		}
 	}
 	hr {
 		border-color: #333333;
@@ -84,6 +115,9 @@
 		&:hover, &:focus {
 			color: white;
 			text-decoration: none;
+		}
+		@media (max-width: 767px) {
+			font-size: 14px;
 		}
 	}
 }
