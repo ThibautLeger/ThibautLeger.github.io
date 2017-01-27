@@ -1,11 +1,6 @@
-* {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 body {
-	font-family: 'DINNeuzeitGroteskW01-Bold', sans-serif;
-	font-size: 16px;
+	font-family: 'neuzeitgrotregular', helvetica, arial, sans-serif;
+	font-size: 14px;
 }
 .content {
 	background: black;
@@ -34,7 +29,6 @@ img {
 footer {
 	background: white;
 	padding: 30px 0;
-	font-size: 14px;
 	line-height: 40px;
 	@media (max-width: 767px) {
 		padding: 15px 0;

@@ -101,23 +101,23 @@
 	}
 	p {
 		color: $intro-dark;
-		font-size: 16px;
+		font-size: 17px;
 		@media (max-width: 767px) {
-			font-size: 14px;
+			font-size: 15px;
 		}
 	}
 	hr {
 		border-color: #333333;
 	}
 	a {
-		font-size: 16px;
+		font-size: 17px;
 		color: $intro-light;
 		&:hover, &:focus {
 			color: white;
 			text-decoration: none;
 		}
 		@media (max-width: 767px) {
-			font-size: 14px;
+			font-size: 15px;
 		}
 	}
 }

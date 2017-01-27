@@ -1,17 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Lato");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-@import url("https://db.onlinewebfonts.com/c/ee0b916b2e7c8fef46ce318b6f5e8d65?family=DINNeuzeitGroteskW01-Bold");
+@font-face {
+  font-family: 'neuzeitgrotregular';
+  src: url("../font/neuzeitgrot-webfont.eot");
+  src: url("../font/neuzeitgrot-webfont.eot") format("embedded-opentype"), url("../font/neuzeitgrot-webfont.woff") format("woff"), url("../font/neuzeitgrot-webfont.ttf") format("truetype"), url("../font/neuzeitgrot-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 * {
-  line-height: 1.75; }
-
-* {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  line-height: 1.5; }
 
 body {
-  font-family: 'DINNeuzeitGroteskW01-Bold', sans-serif;
-  font-size: 16px; }
+  font-family: 'neuzeitgrotregular', helvetica, arial, sans-serif;
+  font-size: 14px; }
 
 .content {
   background: black;
@@ -39,7 +37,6 @@ img {
 footer {
   background: white;
   padding: 30px 0;
-  font-size: 14px;
   line-height: 40px; }
   @media (max-width: 767px) {
     footer {
@@ -62,7 +59,8 @@ footer {
     .navbar-default {
       padding: 0; } }
   .navbar-default .navbar-nav {
-    font-size: 14px; }
+    font-size: 14px;
+    text-transform: uppercase; }
   .navbar-default .navbar-toggle {
     border: none;
     padding: 9px 0; }
@@ -72,8 +70,11 @@ footer {
     border: none; }
 
 .navbar-brand {
-  font-size: 14px;
+  font-size: 17px;
   color: #555 !important; }
+  @media (max-width: 767px) {
+    .navbar-brand {
+      font-size: 15px; } }
   .navbar-brand:hover {
     color: #111 !important; }
 
@@ -193,7 +194,8 @@ footer {
       top: 50%;
       transform: translateY(-50%);
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      font-size: 16px; }
       @media (max-width: 767px) {
         .home .project a span, .project .project a span, .view-more .project a span {
           font-size: 14px; } }
@@ -302,21 +304,21 @@ footer {
         font-size: 24px; } }
   .intro p {
     color: #777777;
-    font-size: 16px; }
+    font-size: 17px; }
     @media (max-width: 767px) {
       .intro p {
-        font-size: 14px; } }
+        font-size: 15px; } }
   .intro hr {
     border-color: #333333; }
   .intro a {
-    font-size: 16px;
+    font-size: 17px;
     color: #cccccc; }
     .intro a:hover, .intro a:focus {
       color: white;
       text-decoration: none; }
     @media (max-width: 767px) {
       .intro a {
-        font-size: 14px; } }
+        font-size: 15px; } }
 
 @media (max-width: 767px) {
   .content img {

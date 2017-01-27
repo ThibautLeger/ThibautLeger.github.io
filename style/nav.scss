@@ -10,6 +10,7 @@
 	}
 	.navbar-nav {
 		font-size: 14px;
+		text-transform: uppercase;
 	}
 	.navbar-toggle {
 		border: none;
@@ -24,8 +25,11 @@
 }
 
 .navbar-brand {
-	font-size: 14px;
+	font-size: 17px;
 	color: #555 !important;
+	@media (max-width: 767px) {
+		font-size: 15px;
+	}
 	&:hover {
 		color: #111 !important;
 	}
