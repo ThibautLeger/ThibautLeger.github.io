@@ -48,3 +48,8 @@ footer {
 		}
 	}
 }
+.mobile-plus {
+	@media (max-width: 767px) {
+		margin: 7.5px 0;
+	}
+}
