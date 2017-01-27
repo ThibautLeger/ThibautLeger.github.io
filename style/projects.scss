@@ -10,17 +10,42 @@
 		margin-top: 81px;
 	}
 	&.arg {
-		background-image: url(../projects/arg/images/featured.jpg);
+		background-image: url(../projects/arg/images/featured-arg.jpg);
+		padding-top: 50%; 
+		@media (min-width: 1080px) {
+			padding-top: 30%;
+		}
+	}
+	&.sportsaid {
+		background-image: url(../projects/sportsaid/images/featured-sportsaid.jpg);
+		padding-top: 50%; 
+		@media (min-width: 1080px) {
+			padding-top: 30%;
+		}
+	}
+	&.tkmaxx {
+		background-image: url(../projects/tkmaxx/images/featured-tkmaxx.jpg);
 		padding-top: 50%; 
 		@media (min-width: 1080px) {
 			padding-top: 30%;
 		}
 	}
 	&.hbo {
-		background-image: url(../projects/hbo/images/featured.jpg);
+		background-image: url(../projects/hbo/images/featured-hbo.jpg);
 		padding-top: 52%; 
 		@media (min-width: 768px) {
 			padding-top: 17%;
+		}
+	}
+	&.or-nothing {
+		background-image: url(../projects/or-nothing/images/featured-or-nothing.jpg);
+		background-color: $featured-bg;
+		background-size: 40%;
+		background-position: center bottom;
+		padding-top: 35%; 
+		@media (max-width: 768px) {
+			background-size: 70%;
+			padding-top: 60%; 
 		}
 	}
 }
@@ -41,23 +66,31 @@
 	h2 {
 		color: $intro-light;
 		margin-bottom: 20px;
-		font-size: 3vw;
+		font-size: 28px;
 		@media (max-width: 767px) {
 			font-size: 24px;
 		}
 	}
 	p {
 		color: $intro-dark;
-		font-size: 14px;
+		font-size: 16px;
 	}
 	hr {
 		border-color: #333333;
 	}
 	a {
-		font-size: 14px;
+		font-size: 16px;
 		color: $intro-light;
-		&:hover {
+		&:hover, &:focus {
+			color: white;
 			text-decoration: none;
+		}
+	}
+}
+.content {
+	img {
+		@media (max-width: 767px) {
+			padding: 7.5px 0;
 		}
 	}
 }

@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://db.onlinewebfonts.com/c/ee0b916b2e7c8fef46ce318b6f5e8d65?family=DINNeuzeitGroteskW01-Bold");
 * {
-  line-height: 1.65; }
+  line-height: 1.75; }
 
 * {
   text-rendering: optimizeLegibility;
@@ -54,9 +54,10 @@ footer {
 .navbar-default {
   background-color: white;
   padding: 15px 0;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.35); }
+  border: none;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1); }
   @media (max-width: 767px) {
     .navbar-default {
       padding: 0; } }
@@ -73,6 +74,8 @@ footer {
 .navbar-brand {
   font-size: 14px;
   color: #555 !important; }
+  .navbar-brand:hover {
+    color: #111 !important; }
 
 .home .project, .project .project, .view-more .project {
   position: relative;
@@ -197,17 +200,39 @@ footer {
     .featured-img {
       margin-top: 81px; } }
   .featured-img.arg {
-    background-image: url(../projects/arg/images/featured.jpg);
+    background-image: url(../projects/arg/images/featured-arg.jpg);
     padding-top: 50%; }
     @media (min-width: 1080px) {
       .featured-img.arg {
         padding-top: 30%; } }
+  .featured-img.sportsaid {
+    background-image: url(../projects/sportsaid/images/featured-sportsaid.jpg);
+    padding-top: 50%; }
+    @media (min-width: 1080px) {
+      .featured-img.sportsaid {
+        padding-top: 30%; } }
+  .featured-img.tkmaxx {
+    background-image: url(../projects/tkmaxx/images/featured-tkmaxx.jpg);
+    padding-top: 50%; }
+    @media (min-width: 1080px) {
+      .featured-img.tkmaxx {
+        padding-top: 30%; } }
   .featured-img.hbo {
-    background-image: url(../projects/hbo/images/featured.jpg);
+    background-image: url(../projects/hbo/images/featured-hbo.jpg);
     padding-top: 52%; }
     @media (min-width: 768px) {
       .featured-img.hbo {
         padding-top: 17%; } }
+  .featured-img.or-nothing {
+    background-image: url(../projects/or-nothing/images/featured-or-nothing.jpg);
+    background-color: #cccccc;
+    background-size: 40%;
+    background-position: center bottom;
+    padding-top: 35%; }
+    @media (max-width: 768px) {
+      .featured-img.or-nothing {
+        background-size: 70%;
+        padding-top: 60%; } }
 
 .intro {
   background: #1e1e1e;
@@ -225,20 +250,25 @@ footer {
   .intro h2 {
     color: #cccccc;
     margin-bottom: 20px;
-    font-size: 3vw; }
+    font-size: 28px; }
     @media (max-width: 767px) {
       .intro h2 {
         font-size: 24px; } }
   .intro p {
     color: #777777;
-    font-size: 14px; }
+    font-size: 16px; }
   .intro hr {
     border-color: #333333; }
   .intro a {
-    font-size: 14px;
+    font-size: 16px;
     color: #cccccc; }
-    .intro a:hover {
+    .intro a:hover, .intro a:focus {
+      color: white;
       text-decoration: none; }
+
+@media (max-width: 767px) {
+  .content img {
+    padding: 7.5px 0; } }
 
 .view-more {
   background: #cccccc;
