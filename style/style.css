@@ -48,6 +48,9 @@ footer {
       color: #333;
       text-decoration: none; }
 
+.slick-slide {
+  outline: none; }
+
 .navbar-default {
   background-color: white;
   padding: 15px 0;
