@@ -5,6 +5,7 @@ body {
 .content {
 	background: black;
 	padding: 96px 0 20px 0;
+	overflow: hidden;
 	@media (max-width: 767px) {
 		padding: 60px 0 15px 0;
 	}
