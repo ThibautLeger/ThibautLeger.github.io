@@ -74,8 +74,10 @@ footer {
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
       background-color: white; }
   .navbar-default .navbar-collapse {
-    border: none;
-    background-color: #f7f7f7; }
+    border: none; }
+    @media (max-width: 767px) {
+      .navbar-default .navbar-collapse {
+        background-color: #f7f7f7; } }
 
 .navbar {
   margin: 0; }

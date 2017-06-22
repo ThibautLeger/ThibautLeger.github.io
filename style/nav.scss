@@ -21,7 +21,9 @@
 	}
 	.navbar-collapse {
 		border: none;
-		background-color: #f7f7f7;
+		@media (max-width: 767px) {
+			background-color: #f7f7f7;
+		}
 	}
 }
 .navbar {
