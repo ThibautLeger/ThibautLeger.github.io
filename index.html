@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default" id="nav">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -26,42 +26,50 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">Work</a></li>
-					<li><a href="about.html">About</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#intro">About</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
-	
 
 	<!-- content -->
-	<section class="content home">
+	<section class="content home" id="work">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-6">
+				<div class="col-xs-12 col-sm-6">
 					<div class="row">
 						<div class="col-xs-12">
-							<div class="project sportsaid">
-								<a href="projects/sportsaid/index.html">
-									<span>Sportsaid</span>
+							<div class="project tkmaxx">
+								<a href="projects/tkmaxx/index.html">
+									<div>
+										<h3>tkmaxx</h3>
+										<p>Website design &amp; front-end development</p>
+									</div>
 								</a>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-xs-12">
-							<div class="project tkmaxx">
-								<a href="projects/tkmaxx/index.html">
-									<span>tkmaxx</span>
+							<div class="project sportsaid">
+								<a href="projects/sportsaid/index.html">
+									<div>
+										<h3>Sportsaid</h3>
+										<p>Website design &amp; front-end development</p>
+									</div>
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-6">
+				<div class="col-xs-12 col-sm-6">
 					<div class="project hbo">
 						<a href="projects/hbo/index.html">
-							<span>HBO</span>
+							<div>
+								<h3>HBO</h3>
+								<p>Responsive banner campaign</p>
+							</div>
 						</a>
 					</div>
 				</div>
@@ -71,26 +79,35 @@
 				<div class="col-xs-12">
 					<div class="project arg">
 						<a href="projects/arg/index.html">
-							<span>Almine Rech Gallery</span>
+							<div>
+								<h3>Almine Rech Gallery</h3>
+								<p>Exhibition catalog</p>
+							</div>
 						</a>
 					</div>
 				</div>
 			</div>	
 
 			<div class="row">
-				<div class="col-xs-8">
+				<div class="col-xs-12 col-sm-8">
 					<div class="project wallpaper">
 						<a href="projects/wallpaper/index.html">
-							<span>Wallpaper*</span>
+							<div>
+								<h3>Wallpaper*</h3>
+								<p>In-house web designer</p>
+							</div>
 						</a>
 					</div>
 				</div>
-				<div class="col-xs-4">
+				<div class="col-xs-12 col-sm-4">
 					<div class="row">
 						<div class="col-xs-12">
 							<div class="project pap">
 								<a href="projects/pap/index.html">
-									<span>P.A.P</span>
+									<div>
+										<h3>P.A.P</h3>
+										<p>Website design &amp; front-end development</p>
+									</div>
 								</a>
 							</div>
 						</div>
@@ -99,7 +116,10 @@
 						<div class="col-xs-12">
 							<div class="project or-nothing">
 								<a href="projects/or-nothing/index.html">
-									<span>or-nothing</span>
+									<div>
+										<h3>or-nothing</h3>
+										<p>Website design &amp; front-end development</p>
+									</div>
 								</a>
 							</div>
 						</div>
@@ -109,6 +129,32 @@
 		</div>
 	</section>
 	<!-- /content -->
+
+	<!-- intro -->
+	<section class="intro" id="intro">
+		<div class="intro-content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+						<h2>About</h2>
+						<p>Touched down in London I have been working for companies In-house as well as freelance and I am also available for contract work. By education, I'm a visual designer but have gained valuable experience in information architecture and good skills in front-end development. If you'd like to know more about my availability or work please don't hesitate to get in touch.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-4 col-xs-offset-4 col-sm-2 col-sm-offset-5">
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="mailto:thibtleger@gmail.com">thibtleger@gmail.com</a><br>
+						<a href="#nav" class="btn view-projects">View projects</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /intro -->
 	
 	<!-- footer -->
 	<footer>
@@ -133,5 +179,7 @@
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+	<script type="text/javascript" src="script/slick/slick.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>

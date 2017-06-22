@@ -122,7 +122,7 @@
 			opacity: 0.0;
 			-webkit-transition: opacity 0.25s; /* Safari */
     		transition: opacity 0.25s;
-			span {
+			div, span {
 				position: absolute;
 				top: 50%;
 				transform: translateY(-50%);
@@ -131,6 +131,9 @@
 				font-size: 16px;
 				@media (max-width: 767px) {
 					font-size: 14px;
+				}
+				h3 {
+					font-size: 20px;
 				}
 			}
         }
@@ -149,6 +152,26 @@
 				@media (max-width: 767px) {
 					padding: 0 7.5px;
 				}
+			}
+		}
+	}
+}
+#intro {
+	height: 100vh;
+	position: relative;
+	.intro-content {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+		.view-projects {
+			margin-top: 15px;
+			padding: 10px 20px;
+			background: black;
+			color: #777777;
+			transition: all 0.25s;
+			&:hover {
+				background: white;
 			}
 		}
 	}

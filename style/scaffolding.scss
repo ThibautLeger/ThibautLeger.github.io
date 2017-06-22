@@ -2,12 +2,15 @@ body {
 	font-family: 'neuzeitgrotregular', helvetica, arial, sans-serif;
 	font-size: 14px;
 }
+section, nav {
+	outline: none;
+}
 .content {
 	background: black;
-	padding: 96px 0 20px 0;
+	padding: 20px 0;
 	overflow: hidden;
 	@media (max-width: 767px) {
-		padding: 60px 0 15px 0;
+		padding: 7.5px 0;
 	}
 	&.project {
 		padding: 15px 0;
@@ -17,7 +20,7 @@ body {
 	}
 }
 .container-fluid {
-	max-width: 1440px;
+	max-width: 1220px;
 	padding: 0 30px;
 	@media (max-width: 767px) {
 		padding: 0 15px;
