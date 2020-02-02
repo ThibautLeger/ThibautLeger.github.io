@@ -40,6 +40,13 @@
 			padding-top: 30%;
 		}
 	}
+	&.turtl {
+		background-image: url(../projects/turtl/images/turtle-570h.jpg);
+		padding-top: 50%; 
+		@media (min-width: 1080px) {
+			padding-top: 30%;
+		}
+	}
 	&.hbo {
 		background-image: url(../projects/hbo/images/featured-hbo.jpg);
 		padding-top: 52%; 

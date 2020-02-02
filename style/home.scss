@@ -10,7 +10,12 @@
 		@media (max-width: 767px) {
 			margin: 7.5px 0;
 		}
-        &.sportsaid {
+        &.turtl {
+			background-image: url(../images/home/turtl.jpg);
+			padding-top: 38.47%; /* (img-height / img-width * width) */
+							/* (500 / 1176 * 100) */
+		}
+		&.sportsaid {
 			background-image: url(../images/home/sportsaid.jpg);
 			padding-top: 65%; /* (img-height / img-width * width) */
 							/* (439 / 780 * 100) */
